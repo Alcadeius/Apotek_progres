@@ -1,0 +1,301 @@
+h1{
+    margin-top: -580px;
+    margin-left: 199px;
+}
+table{
+    text-align: center;
+    margin-top: 50px;
+}
+thead{
+    background-color: rgb(166, 224, 224);
+}
+tbody{
+    background-color: rgb(245, 245, 245);
+} 
+.ed{
+    border: 1px solid rgb(43, 43, 255);
+    background-color: rgb(43, 43, 255);
+    text-decoration: none;
+    padding-left: 15px;
+    border-radius: 3px;
+    color: white;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#del{
+    border: 1px solid rgb(255, 47, 47);
+    background-color: rgb(255, 47, 47);
+    text-decoration: none;
+    padding-left: 15px;
+    border-radius: 3px;
+    color: white;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ed:hover{
+    background-color: rgb(0, 0, 255);
+    color: white;
+}
+#del:hover{
+    background-color: rgb(255, 0, 0);
+}
+#add{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 9px;
+}
+#add:hover{
+    background-color: rgb(52, 38, 248);
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.awal{
+    background-color: #2C394B;
+    font-size: 14px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+.dua{
+    background-color: #345B63;
+    padding: 10px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    margin-left: 990px;
+    float: left;
+}
+.link:hover{
+    color: white;
+}
+.link:hover::after{
+    content:'';
+    display: block;
+    border: 1px solid rgb(22, 255, 1);
+    width: 50%;
+    margin: auto;
+    margin-bottom: -1px;
+}
+.img{
+    background-image:url(image/hecker.jpeg);
+    border-radius: 100px;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+}
+#img{
+    background-image:url(image/foto.jpg);
+    border-radius: 100px;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+}
+#bed{
+    text-align: center;
+}
+#sen{
+    font-size: 14px;
+}
+.nara{
+    text-decoration: none;
+    color: white;
+    margin-left: -10px;
+}
+.nara:hover{
+    color: white;
+}
+.nara::after{
+    content: '';
+    width: 0%;
+    transition: width 0.3s;
+}
+.nara::after:focus{
+    content:'';
+    display: block;
+    border: 1px solid rgb(21, 21, 236);
+    width: 14%;
+    margin: auto;
+    margin-bottom: -1px;
+}
+.nara:hover:after{
+    content:'';
+    display: block;
+    border: 1px solid white;
+    width: 14%;
+    margin: auto;
+    margin-bottom: -1px;
+}
+.wapo {
+    margin-top: -10px;
+    position: relative;
+    background: linear-gradient(to right, red, purple);
+    max-width: 100px;
+    margin-left: 50px;
+    padding: 1px;
+}
+.module {
+    background: #2C394B;
+    color: white;
+    padding: 2px;
+}
+ #line::after{
+    content:'';
+    display: block;
+    border: 1px solid rgb(255, 255, 255);
+    width: 210px;
+    margin-top: -10px;
+}
+ .duet{
+    text-decoration: none;
+    color: white;
+    margin-left: 100px;
+}
+.duet:hover{
+    color: rgb(247, 101, 101);
+}
+ol{
+    border-left:3px solid white;
+    margin-left: 25px;
+    margin-right: 30px;
+    padding-left: 10px;
+    float: left;
+}
+.card-title{
+    margin-top: 100px;
+    text-align: center;
+}
+.material-icons.lai{
+    color: rgb(0, 21, 112);
+    background-color:rgb(64, 64, 255);
+    padding: 50px;
+    width: 350px;
+    height: 200px;
+    font-size: 100px;
+    text-align: right;
+    border: 1px solid rgb(64, 64, 255);
+    border-radius: 10px;
+}
+.material-icons.lai{
+    transition: transform 0.2s,box-shadow 0.3s;
+    float: none;
+} 
+.material-icons.lai:hover{
+    transform: translate(0,-10px);
+    box-shadow:10px 10px rgba(0, 0, 0, 0.1);
+}
+.awas{
+    text-decoration: none;
+    color: white;
+    margin-top: -5px;
+    margin-left: 140px;
+    position: relative;
+    z-index: 100;
+}
+.pajang{
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    margin-top: -50px;
+    width: 349px;
+    position: relative;
+    z-index: 99;
+}
+.ushu{
+    position: relative;
+    z-index: 100;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: -90px;
+    color: white;
+    opacity: 0.7;
+}
+.material-icons.ius{
+    color: rgb(139, 24, 24);
+    background-color:rgb(253, 63, 63);
+    padding: 50px;
+    width: 350px;
+    height: 200px;
+    font-size: 100px;
+    text-align: right;
+    border: 1px solid rgb(255, 64, 64);
+    border-radius: 10px;
+    transition: transform 0.2s,box-shadow 0.3s;
+}
+.material-icons.ius:hover{
+    transform: translate(0,-10px);
+    box-shadow:10px 10px rgba(0, 0, 0, 0.1);
+}
+.material-icons.awq{
+    color: rgb(11, 116, 7);
+    background-color:rgb(41, 255, 51);
+    padding: 50px;
+    width: 350px;
+    height: 200px;
+    font-size: 100px;
+    text-align: right;
+    border: 1px solid rgb(11, 255, 24);
+    border-radius: 10px;
+    transition: transform 0.2s,box-shadow 0.3s;
+}
+.material-icons.awq:hover{
+    transform: translate(0,-10px);
+    box-shadow:10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.material-icons.lol{
+    color: #810000;
+    background: linear-gradient(to right, #1565C0, #b92b27);
+    padding: 50px;
+    width: 350px;
+    height: 200px;
+    font-size: 100px;
+    text-align: right;
+    border: 1px solid ;
+    border-radius: 10px;
+    transition: transform 0.2s,box-shadow 0.3s;
+}
+.material-icons.lol:hover{
+    transform: translate(0,-10px);
+    box-shadow:10px 10px rgba(0, 0, 0, 0.1);
+}
+.material-icons.lel{
+    color: rgb(158, 108, 158);
+    background: linear-gradient(to right, #480048, #C04848); 
+    padding: 50px;
+    width: 350px;
+    height: 200px;
+    font-size: 100px;
+    text-align: right;
+    border: 1px solid;
+    border-radius: 10px;
+    transition: transform 0.2s,box-shadow 0.3s;
+}
+.material-icons.lel:hover{
+    transform: translate(0,-10px);
+    box-shadow:10px 10px rgba(0, 0, 0, 0.1);
+}
+.material-icons.lul{
+    color: #48466D;
+    background: linear-gradient(to right, #1fddff, #ff4b1f); 
+    padding: 50px;
+    width: 350px;
+    height: 200px;
+    font-size: 100px;
+    text-align: right;
+    border: 1px solid;
+    border-radius: 10px;
+    transition: transform 0.2s,box-shadow 0.3s;
+}
+.material-icons.lul:hover{
+    transform: translate(0,-10px);
+    box-shadow:10px 10px rgba(0, 0, 0, 0.1);
+}
